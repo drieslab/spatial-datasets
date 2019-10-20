@@ -10,7 +10,7 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 
 ### 2019
 
-#### seqFISH+ cortex
+#### seqFISH+ cortex  
 - [**paper**](https://www.nature.com/articles/s41586-019-1049-y)  
 - [directory](./data/2019_seqfish_plus_cortex/)
 
