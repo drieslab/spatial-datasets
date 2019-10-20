@@ -3,7 +3,7 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 - raw data  
 - single-cell count matrix  
 - single-cell locations  
-- giotto R-script with secondary analyis  
+- giotto R-script with secondary analyis (when available)  
 
 
 ## Available datasets
