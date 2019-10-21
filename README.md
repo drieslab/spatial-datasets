@@ -21,7 +21,6 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 #### slide-seq cerebellum
 - [**paper**](https://science.sciencemag.org/content/363/6434/1463)  
 - [directory](./data/2019_slideseq_cerebellum/)
-
 -------------------------------------------------------------------------
 
 ### 2018
