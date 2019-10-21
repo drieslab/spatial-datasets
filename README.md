@@ -18,6 +18,10 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 - [**paper**](https://www.nature.com/articles/s41586-019-1049-y)  
 - [directory](./data/2019_seqfish_plus_olfactory_bulb/)
 
+#### slide-seq cerebellum
+- [**paper**](https://science.sciencemag.org/content/363/6434/1463)  
+- [directory](./data/2019_slideseq_cerebellum/)
+
 -------------------------------------------------------------------------
 
 ### 2018
