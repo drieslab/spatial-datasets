@@ -32,6 +32,13 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 #### osmFISH somatosensory cortex
 - [**paper**](https://www.nature.com/articles/s41592-018-0175-z)  
 - [directory](./data/2018_osmFISH_SScortex/)
+--------------------------------------------------------------------------
+
+### 2017
+
+#### Spatial Transcriptomics
+- [**paper**](https://science.sciencemag.org/content/353/6294/78)
+- [directory](./data/2016_ST_olfactory_bulb/)
 
 ## Soon available datasets  
 
