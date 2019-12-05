@@ -10,6 +10,12 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 
 ### 2019
 
+#### 10X visium brain
+- [directory](./data/2019_visium_brain/)
+
+#### 10X visium kidney
+- [directory](./data/2019_visium_kidney/)
+
 #### seqFISH+ somatosensory cortex
 - [**paper**](https://www.nature.com/articles/s41586-019-1049-y)  
 - [directory](./data/2019_seqfish_plus_SScortex/)
