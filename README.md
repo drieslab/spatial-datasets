@@ -38,6 +38,10 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 #### osmFISH somatosensory cortex
 - [**paper**](https://www.nature.com/articles/s41592-018-0175-z)  
 - [directory](./data/2018_osmFISH_SScortex/)
+
+#### merFISH 3D hypothalamic preoptic region
+- [**paper**](https://science.sciencemag.org/content/362/6416/eaau5324)
+- [directory](./data/2018_merFISH_science_hypo_preoptic/)
 --------------------------------------------------------------------------
 
 ### 2016
