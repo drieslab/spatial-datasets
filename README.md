@@ -27,7 +27,9 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 #### slide-seq cerebellum
 - [**paper**](https://science.sciencemag.org/content/363/6434/1463)  
 - [directory](./data/2019_slideseq_cerebellum/)
+
 -------------------------------------------------------------------------
+
 
 ### 2018
 
@@ -42,6 +44,7 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 #### merFISH 3D hypothalamic preoptic region
 - [**paper**](https://science.sciencemag.org/content/362/6416/eaau5324)
 - [directory](./data/2018_merFISH_science_hypo_preoptic/)
+
 --------------------------------------------------------------------------
 
 ### 2016
