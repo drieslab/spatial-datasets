@@ -49,6 +49,10 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 - [**paper**](http://www.sciencedirect.com/science/article/pii/S0092867418309048)
 - [directory](./data/2018_codex_spleen/)
 
+#### CyCIF PDAC
+- [**paper**](https://doi.org/10.7554/eLife.31657)
+- [directory](./data/2018_CyCIF_PDAC/)
+
 --------------------------------------------------------------------------
 
 ### 2016
