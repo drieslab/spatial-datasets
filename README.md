@@ -45,6 +45,10 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 - [**paper**](https://science.sciencemag.org/content/362/6416/eaau5324)
 - [directory](./data/2018_merFISH_science_hypo_preoptic/)
 
+#### CODEX spleen
+- [**paper**](http://www.sciencedirect.com/science/article/pii/S0092867418309048)
+- [directory](./data/2018_codex_spleen/)
+
 --------------------------------------------------------------------------
 
 ### 2016
