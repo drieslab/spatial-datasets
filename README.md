@@ -1,5 +1,5 @@
 # spatial datasets
-Repository of spatial datasets. Each dataset has its own folder with subfolders for:
+Repository of spatial datasets analyzed by [Giotto](https://rubd.github.io/Giotto/). Each dataset has its own folder with subfolders for:
 - raw data  
 - single-cell count matrix  
 - single-cell locations  
@@ -64,5 +64,5 @@ Repository of spatial datasets. Each dataset has its own folder with subfolders 
 ## Soon available datasets  
 
 1. slide-seq
-2. merFISH
+2. MIBI
 3. ...
