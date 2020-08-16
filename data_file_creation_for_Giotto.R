@@ -95,10 +95,15 @@ seqfish_OB_data = list(
 
 # create datasets.txt
 # need to be placed in /extdata directory of Giotto package
-datasets = as.data.table(rbind(ST_OB_data_1, ST_OB_data_2, 
-                               codex_spleen_data, cyCIF_PDAC_data,
-                               starmap_cortex_data, osmfish_SS_data, merfish_preoptic_data, 
-                               seqfish_SS_data, seqfish_OB_data), row.names = F)
+datasets = as.data.table(rbind(ST_OB_data_1,
+                               ST_OB_data_2, 
+                               codex_spleen_data,
+                               cyCIF_PDAC_data,
+                               starmap_cortex_data,
+                               osmfish_SS_data,
+                               merfish_preoptic_data, 
+                               seqfish_SS_data,
+                               seqfish_OB_data), row.names = F)
 fwrite(datasets, './datasets.txt', sep = '\t')
 
 
