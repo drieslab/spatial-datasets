@@ -1,20 +1,21 @@
 # spatial datasets
-Repository of spatial datasets analyzed by [Giotto](https://rubd.github.io/Giotto/). Each dataset has its own folder with subfolders for:
-- raw data  
-- single-cell count matrix  
-- single-cell locations  
-- giotto R-script with secondary analyis (when available)  
+Repository of spatial datasets analyzed by [Giotto](https://rubd.github.io/Giotto/). Each dataset has its own folder with subfolders for:  
+- count matrix  
+- locations  
+- giotto R-script with secondary analyis (when available)   
+- raw data  (optional)  
+
+These datasets can be downloaded directly from within the Giotto package using the function **getSpatialDataset** as illustrated in the examples. 
+
+Visium datasets are not available, but the original directory can be downloaded from the 10X Visium website and directly used as input for the wrapper
+**createGiottoVisiumObject** to create a Giotto object.  
+
+
 
 
 ## Available datasets
 
 ### 2019
-
-#### 10X visium brain
-- [directory](./data/2019_visium_brain/)
-
-#### 10X visium kidney
-- [directory](./data/2019_visium_kidney/)
 
 #### seqFISH+ somatosensory cortex
 - [**paper**](https://www.nature.com/articles/s41586-019-1049-y)  
@@ -27,6 +28,7 @@ Repository of spatial datasets analyzed by [Giotto](https://rubd.github.io/Giott
 #### slide-seq cerebellum
 - [**paper**](https://science.sciencemag.org/content/363/6434/1463)  
 - [directory](./data/2019_slideseq_cerebellum/)
+- not yet available
 
 -------------------------------------------------------------------------
 
@@ -52,6 +54,11 @@ Repository of spatial datasets analyzed by [Giotto](https://rubd.github.io/Giott
 #### CyCIF PDAC
 - [**paper**](https://doi.org/10.7554/eLife.31657)
 - [directory](./data/2018_CyCIF_PDAC/)
+
+#### MIBI TNBC
+- [**paper**](https://www.cell.com/fulltext/S0092-8674(18)31100-0)
+- [directory](./data/2019_slideseq_cerebellum/)
+- not yet available
 
 --------------------------------------------------------------------------
 
