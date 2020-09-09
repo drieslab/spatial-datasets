@@ -37,7 +37,8 @@ cyCIF_PDAC_data = list(
   dataset = 'cycif_PDAC',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_coord.txt",
   expr_matrix = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/count_matrix/cyCIF_PDAC_expression.txt.gz",
-  metadata = c("https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_annot.txt")
+  metadata = c("https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_annot.txt",
+               "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/raw_data/canvas.png")
 )
 
 
