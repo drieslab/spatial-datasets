@@ -46,7 +46,7 @@ merfish_preoptic_data = list(
   dataset = 'merfish_preoptic',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_data_cell_locations.txt",
   expr_matrix = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/count_matrix/merFISH_3D_data_expression.txt.gz",
-  metadata = c(NA)
+  metadata = c("https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_metadata.txt")
 )
 
 
