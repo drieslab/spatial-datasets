@@ -56,7 +56,7 @@ osmfish_SS_data = list(
   dataset = 'osmfish_SS_cortex',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_osmFISH_SScortex/cell_locations/osmFISH_prep_cell_coordinates.txt",
   expr_matrix = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_osmFISH_SScortex/count_matrix/osmFISH_prep_expression.txt",
-  metadata = c(NA)
+  metadata = c("https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_osmFISH_SScortex/raw_data/osmFISH_prep_cell_metadata.txt")
 )
 
 
