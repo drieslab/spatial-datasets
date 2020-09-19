@@ -28,7 +28,6 @@ Visium datasets are not available, but the original directory can be downloaded 
 #### slide-seq cerebellum
 - [**paper**](https://science.sciencemag.org/content/363/6434/1463)  
 - [directory](./data/2019_slideseq_cerebellum/)
-- not yet available
 
 -------------------------------------------------------------------------
 
