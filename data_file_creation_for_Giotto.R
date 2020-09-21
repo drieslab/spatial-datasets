@@ -90,6 +90,18 @@ seqfish_OB_data = list(
 )
 
 
+# slideseq cerebellum
+slideseq_cerebellum_data = list(
+  dataset = 'slideseq_cerebellum',
+  spatial_locs = "https://zenodo.org/record/4034228/files/BeadLocationsForR.csv",
+  expr_matrix = "https://zenodo.org/record/4034228/files/MappedDGEForR.csv",
+  metadata = c("https://zenodo.org/record/4034228/files/l1.cerebellum.cellID.txt",
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.cells.nonblood.txt",
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.cells.txt",
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.class.txt",
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.genes.txt",
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.txt")
+)
 
 
 
@@ -104,7 +116,8 @@ datasets = as.data.table(rbind(ST_OB_data_1,
                                osmfish_SS_data,
                                merfish_preoptic_data, 
                                seqfish_SS_data,
-                               seqfish_OB_data), row.names = F)
+                               seqfish_OB_data,
+                               slideseq_cerebellum_data), row.names = F)
 fwrite(datasets, './datasets.txt', sep = '\t')
 
 
