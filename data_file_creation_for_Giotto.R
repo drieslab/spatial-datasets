@@ -105,6 +105,22 @@ slideseq_cerebellum_data = list(
 
 
 
+## 2020
+ST_SCC_data = list(
+  dataset = 'ST_SCC',
+  spatial_locs = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/cell_locations/P2_1_spatial_locs.csv",
+                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/cell_locations/P2_2_spatial_locs.csv",
+                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/cell_locations/P2_3_spatial_locs.csv"),
+  expr_matrix = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_1_expression.csv",
+                  "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_2_expression.csv",
+                  "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_3_expression.csv"),
+  metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284316_P2_ST_rep1.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284317_P2_ST_rep2.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284318_P2_ST_rep3.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/p2_metadata.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/scrna_expr.rds")
+)
+
 
 # create datasets.txt
 # need to be placed in /extdata directory of Giotto package
@@ -117,7 +133,8 @@ datasets = as.data.table(rbind(ST_OB_data_1,
                                merfish_preoptic_data, 
                                seqfish_SS_data,
                                seqfish_OB_data,
-                               slideseq_cerebellum_data), row.names = F)
+                               slideseq_cerebellum_data,
+                               ST_SCC_data), row.names = F)
 fwrite(datasets, './datasets.txt', sep = '\t')
 
 
