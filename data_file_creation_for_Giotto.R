@@ -114,11 +114,12 @@ ST_SCC_data = list(
   expr_matrix = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_1_expression.csv",
                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_2_expression.csv",
                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_3_expression.csv"),
-  metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284316_P2_ST_rep1.jpg",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284317_P2_ST_rep2.jpg",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/GSM4284318_P2_ST_rep3.jpg",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/p2_metadata.rds",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/scrna_expr.rds")
+  metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/p2_metadata.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/scrna_expr.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_1_0.0625.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_2_0.0625.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_3_0.0625.jpg",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/imgReg.zip")
 )
 
 
