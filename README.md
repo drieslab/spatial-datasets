@@ -15,7 +15,25 @@ Visium datasets are not available, but the original directory can be downloaded 
 
 ## Available datasets
 
+### 2020
+
+#### Spatial Transcriptomics squamous cell carcinoma
+- [**paper**](https://www.sciencedirect.com/science/article/pii/S0092867420306723)  
+- [directory](./data/2020_ST_SCC)
+
+-------------------------------------------------------------------------
+
 ### 2019
+
+#### Visium kidney
+- [**website**](https://support.10xgenomics.com/spatial-gene-expression/datasets/1.1.0/V1_Mouse_Kidney)  
+
+#### Visium brain
+- [**website**](https://support.10xgenomics.com/spatial-gene-expression/datasets/1.1.0/V1_Adult_Mouse_Brain)  
+
+#### merFISH 
+- [**paper**](https://www.pnas.org/content/116/39/19490)  
+- [directory](./data/2019_merFISH_PNAS)
 
 #### seqFISH+ somatosensory cortex
 - [**paper**](https://www.nature.com/articles/s41586-019-1049-y)  
@@ -63,7 +81,7 @@ Visium datasets are not available, but the original directory can be downloaded 
 
 ### 2016
 
-#### Spatial Transcriptomics
+#### Spatial Transcriptomics olfactory bulb
 - [**paper**](https://science.sciencemag.org/content/353/6294/78)
 - [directory](./data/2016_ST_olfactory_bulb/)
 
