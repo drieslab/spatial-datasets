@@ -1,9 +1,9 @@
 
 library(data.table)
 
-## 2016 ##
+## 2016 ####
 
-# spatial transcriptomics
+# spatial transcriptomics ####
 ST_OB_data_1 = list(
   dataset = 'ST_OB1',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2016_ST_olfactory_bulb/cell_locations/Rep11_MOB_0_location.txt",
@@ -20,9 +20,9 @@ ST_OB_data_2 = list(
 
 
 
-## 2018 ##
+## 2018 ####
 
-# codex
+# codex ####
 codex_spleen_data = list(
   dataset = 'codex_spleen',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_codex_spleen/cell_locations/codex_BALBc_3_coord.txt",
@@ -32,7 +32,7 @@ codex_spleen_data = list(
 )
 
 
-# cyCIF
+# cyCIF ####
 cyCIF_PDAC_data = list(
   dataset = 'cycif_PDAC',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_coord.txt",
@@ -42,7 +42,7 @@ cyCIF_PDAC_data = list(
 )
 
 
-# merfish
+# merfish ####
 merfish_preoptic_data = list(
   dataset = 'merfish_preoptic',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_data_cell_locations.txt",
@@ -51,7 +51,7 @@ merfish_preoptic_data = list(
 )
 
 
-# osmfish
+# osmfish ####
 osmfish_SS_data = list(
   dataset = 'osmfish_SS_cortex',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_osmFISH_SScortex/cell_locations/osmFISH_prep_cell_coordinates.txt",
@@ -60,7 +60,7 @@ osmfish_SS_data = list(
 )
 
 
-# starmap
+# starmap ####
 starmap_cortex_data = list(
   dataset = 'starmap_3D_cortex',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2018_starmap_3D_cortex/cell_locations/STARmap_3D_data_cell_locations.txt",
@@ -71,9 +71,9 @@ starmap_cortex_data = list(
 
 
 
-## 2019
+## 2019 ####
 
-# seqfish ss cortex
+# seqfish ss cortex ####
 seqfish_SS_data = list(
   dataset = 'seqfish_SS_cortex',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2019_seqfish_plus_SScortex/cell_locations/cortex_svz_centroids_coord.txt",
@@ -81,7 +81,7 @@ seqfish_SS_data = list(
   metadata = c("https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2019_seqfish_plus_SScortex/cell_locations/cortex_svz_centroids_annot.txt")
 )
 
-# seqfish OB
+# seqfish OB ####
 seqfish_OB_data = list(
   dataset = 'seqfish_OB',
   spatial_locs = "https://raw.githubusercontent.com/RubD/spatial-datasets/master/data/2019_seqfish_plus_olfactory_bulb/cell_locations/OB_centroids_coord.txt",
@@ -90,7 +90,7 @@ seqfish_OB_data = list(
 )
 
 
-# slideseq cerebellum
+# slideseq cerebellum ####
 slideseq_cerebellum_data = list(
   dataset = 'slideseq_cerebellum',
   spatial_locs = "https://zenodo.org/record/4034228/files/BeadLocationsForR.csv",
@@ -105,7 +105,9 @@ slideseq_cerebellum_data = list(
 
 
 
-## 2020
+## 2020 ####
+
+# ST SCC ####
 ST_SCC_data = list(
   dataset = 'ST_SCC',
   spatial_locs = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/cell_locations/P2_1_spatial_locs.csv",
@@ -114,12 +116,15 @@ ST_SCC_data = list(
   expr_matrix = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_1_expression.csv",
                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_2_expression.csv",
                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_3_expression.csv"),
-  metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/p2_metadata.rds",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/raw_data/scrna_expr.rds",
+  metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/p2_metadata.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/scrna_expr.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/cell_type_vector.RDS",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/Sig_scran.RDS",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_1_0.0625.jpg",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_2_0.0625.jpg",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_3_0.0625.jpg",
-               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/imgReg.zip")
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/imgReg.zip",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/PairsLigRec.txt")
 )
 
 
