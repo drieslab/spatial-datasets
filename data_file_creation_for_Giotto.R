@@ -118,6 +118,7 @@ ST_SCC_data = list(
                   "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/count_matrix/P2_3_expression.csv"),
   metadata = c("https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/p2_metadata.rds",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/scrna_expr.rds",
+               "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/normalized_sc_matrix.RDS",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/cell_type_vector.RDS",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/scRNAseq/Sig_scran.RDS",
                "https://github.com/RubD/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_1_0.0625.jpg",
