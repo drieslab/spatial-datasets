@@ -9,14 +9,16 @@ ST_OB_data_1 = list(
   dataset = 'ST_OB1',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2016_ST_olfactory_bulb/cell_locations/Rep11_MOB_0_location.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2016_ST_olfactory_bulb/count_matrix/Rep11_MOB_0_expr.txt",
-  metadata = c(NA)
+  metadata = c(NA),
+  segmentations = c(NA)
 )
 
 ST_OB_data_2 = list(
   dataset = 'ST_OB2',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2016_ST_olfactory_bulb/cell_locations/Rep12_MOB_0_location.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2016_ST_olfactory_bulb/count_matrix/Rep12_MOB_0_expr.txt",
-  metadata = c(NA)
+  metadata = c(NA),
+  segmentations = c(NA)
 )
 
 
@@ -29,7 +31,8 @@ codex_spleen_data = list(
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_codex_spleen/cell_locations/codex_BALBc_3_coord.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_codex_spleen/count_matrix/codex_BALBc_3_expression.txt.gz",
   metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_codex_spleen/cell_locations/codex_BALBc_3_annotation.txt",
-               "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_codex_spleen/cell_locations/cell_type_annotation.csv")
+               "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_codex_spleen/cell_locations/cell_type_annotation.csv"),
+  segmentations = c(NA)
 )
 
 
@@ -39,7 +42,8 @@ cyCIF_PDAC_data = list(
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_coord.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_CyCIF_PDAC/count_matrix/cyCIF_PDAC_expression.txt.gz",
   metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_CyCIF_PDAC/cell_locations/cyCIF_PDAC_annot.txt",
-               "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_CyCIF_PDAC/raw_data/canvas.png")
+               "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_CyCIF_PDAC/raw_data/canvas.png"),
+  segmentations = c(NA)
 )
 
 
@@ -48,7 +52,8 @@ merfish_preoptic_data = list(
   dataset = 'merfish_preoptic',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_data_cell_locations.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/count_matrix/merFISH_3D_data_expression.txt.gz",
-  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_metadata.txt")
+  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_merFISH_science_hypo_preoptic/cell_locations/merFISH_3D_metadata.txt"),
+  segmentations = c(NA)
 )
 
 
@@ -57,7 +62,8 @@ osmfish_SS_data = list(
   dataset = 'osmfish_SS_cortex',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_osmFISH_SScortex/cell_locations/osmFISH_prep_cell_coordinates.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_osmFISH_SScortex/count_matrix/osmFISH_prep_expression.txt",
-  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_osmFISH_SScortex/raw_data/osmFISH_prep_cell_metadata.txt")
+  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_osmFISH_SScortex/raw_data/osmFISH_prep_cell_metadata.txt"),
+  segmentations = c(NA)
 )
 
 
@@ -66,7 +72,8 @@ starmap_cortex_data = list(
   dataset = 'starmap_3D_cortex',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_starmap_3D_cortex/cell_locations/STARmap_3D_data_cell_locations.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2018_starmap_3D_cortex/count_matrix/STARmap_3D_data_expression.txt",
-  metadata = c(NA)
+  metadata = c(NA),
+  segmentations = c(NA)
 )
 
 
@@ -79,7 +86,8 @@ seqfish_SS_data = list(
   dataset = 'seqfish_SS_cortex',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_SScortex/cell_locations/cortex_svz_centroids_coord.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_SScortex/count_matrix/cortex_svz_expression.txt",
-  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_SScortex/cell_locations/cortex_svz_centroids_annot.txt")
+  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_SScortex/cell_locations/cortex_svz_centroids_annot.txt"),
+  segmentations = c(NA)
 )
 
 # seqfish OB ####
@@ -87,7 +95,8 @@ seqfish_OB_data = list(
   dataset = 'seqfish_OB',
   spatial_locs = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_olfactory_bulb/cell_locations/OB_centroids_coord.txt",
   expr_matrix = "https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_olfactory_bulb/count_matrix/OB_expression.txt",
-  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_olfactory_bulb/cell_locations/OB_centroids_annot.txt")
+  metadata = c("https://raw.githubusercontent.com/drieslab/spatial-datasets/master/data/2019_seqfish_plus_olfactory_bulb/cell_locations/OB_centroids_annot.txt"),
+  segmentations = c(NA)
 )
 
 
@@ -101,7 +110,8 @@ slideseq_cerebellum_data = list(
                "https://zenodo.org/record/4034228/files/l1.cerebellum.cells.txt",
                "https://zenodo.org/record/4034228/files/l1.cerebellum.class.txt",
                "https://zenodo.org/record/4034228/files/l1.cerebellum.genes.txt",
-               "https://zenodo.org/record/4034228/files/l1.cerebellum.txt")
+               "https://zenodo.org/record/4034228/files/l1.cerebellum.txt"),
+  segmentations = c(NA)
 )
 
 
@@ -126,7 +136,8 @@ ST_SCC_data = list(
                "https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_2_0.0625.jpg",
                "https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/lowres_images/P2_3_0.0625.jpg",
                "https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/imgReg.zip",
-               "https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/PairsLigRec.txt")
+               "https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/PairsLigRec.txt"),
+  segmentations = c(NA)
 )
 
 
@@ -137,7 +148,8 @@ scRNAseq_prostate_data = list(
   dataset = 'scRNA_prostate',
   spatial_locs = c(NA),
   expr_matrix = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_human_prostate/count_matrix/prostate_sc_expression_matrix.csv.gz"),
-  metadata = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_human_prostate/cell_metadata/prostate_sc_metadata.csv")
+  metadata = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_human_prostate/cell_metadata/prostate_sc_metadata.csv"),
+  segmentations = c(NA)
 )
 
 
@@ -146,7 +158,17 @@ scRNAseq_mouse_brain_data = list(
   dataset = 'scRNA_mouse_brain',
   spatial_locs = c(NA),
   expr_matrix = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_mouse_brain/count_matrix/brain_sc_expression_matrix.txt.gz"),
-  metadata = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_mouse_brain/cell_metadata/brain_sc_metadata.csv")
+  metadata = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_mouse_brain/cell_metadata/brain_sc_metadata.csv"),
+  segmentations = c(NA)
+)
+
+# resolve biosciences molecular cartography human lung 873_C1
+mol_cart_lung_873_C1 = list(
+  dataset = 'mol_cart_lung_873_C1',
+  spatial_locs = c(NA),
+  expr_matrix = c(NA),
+  metadata = c(NA),
+  segmentations = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_mol_cart_human_lung/segmentations/Resolve_hLung_stardist.geojson")
 )
 
 
@@ -164,7 +186,10 @@ datasets = data.table::as.data.table(rbind(ST_OB_data_1,
                                            slideseq_cerebellum_data,
                                            ST_SCC_data,
                                            scRNAseq_prostate_data,
-                                           scRNAseq_mouse_brain_data), row.names = F)
+                                           scRNAseq_mouse_brain_data,
+                                           mol_cart_lung_873_C1
+                                           ),
+                                     row.names = FALSE)
 data.table::fwrite(datasets, './datasets.txt', sep = '\t')
 
 
