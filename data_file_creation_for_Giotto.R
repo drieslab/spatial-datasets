@@ -171,6 +171,17 @@ mol_cart_lung_873_C1 = list(
   segmentations = c("https://github.com/drieslab/spatial-datasets/raw/master/data/2022_mol_cart_human_lung/segmentations/Resolve_hLung_stardist.geojson")
 )
 
+## 2023 ####
+
+# spatial genomics mini kidney data
+sg_mini_kidney_data = list(
+  dataset = 'sg_mini_kidney',
+  spatial_locs = c("https://github.com/drieslab/spatial-datasets/data/2023_spatial_genomics_mouse_kidney/Raw.zip"),
+  expr_matrix = c(NA),
+  metadata = c(NA),
+  segmentations = c(NA)
+)
+
 
 # create datasets.txt
 # need to be placed in /extdata directory of Giotto package
@@ -187,7 +198,8 @@ datasets = data.table::as.data.table(rbind(ST_OB_data_1,
                                            ST_SCC_data,
                                            scRNAseq_prostate_data,
                                            scRNAseq_mouse_brain_data,
-                                           mol_cart_lung_873_C1
+                                           mol_cart_lung_873_C1,
+                                           sg_mini_kidney_data
                                            ),
                                      row.names = FALSE)
 data.table::fwrite(datasets, './datasets.txt', sep = '\t')

@@ -13,3 +13,4 @@ ST_SCC	https://github.com/drieslab/spatial-datasets/raw/master/data/2020_ST_SCC/
 scRNA_prostate		https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_human_prostate/count_matrix/prostate_sc_expression_matrix.csv.gz	https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_human_prostate/cell_metadata/prostate_sc_metadata.csv	
 scRNA_mouse_brain		https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_mouse_brain/count_matrix/brain_sc_expression_matrix.txt.gz	https://github.com/drieslab/spatial-datasets/raw/master/data/2022_scRNAseq_mouse_brain/cell_metadata/brain_sc_metadata.csv	
 mol_cart_lung_873_C1				https://github.com/drieslab/spatial-datasets/raw/master/data/2022_mol_cart_human_lung/segmentations/Resolve_hLung_stardist.geojson
+sg_mini_kidney	https://github.com/drieslab/spatial-datasets/data/2023_spatial_genomics_mouse_kidney/Raw.zip			
