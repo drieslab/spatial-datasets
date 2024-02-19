@@ -15,6 +15,11 @@ Visium datasets are not available, but the original directory can be downloaded 
 
 ## Available datasets
 
+### 2023
+
+#### Spatial Genomics Mouse Kidney Mini Dataset
+- [**website**]([https://resolvebiosciences.com/open-dataset/?dataset=human-lung-dataset](https://spatialgenomics.com/data/#downloads))
+
 ### 2022
 
 #### Molecular Cartography Human Lung
