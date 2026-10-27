@@ -15,6 +15,13 @@ Visium datasets are not available, but the original directory can be downloaded 
 
 ## Available datasets
 
+### Cropped vendor-format minis
+
+Small crops of public Xenium, Stereo-seq, CosMx and Visium HD runs, in each
+vendor's own output layout, for testing readers and pipelines. They are release
+assets, downloaded with `GiottoData::getSpatialDataset()`; the scripts that
+made them are in [crops/](./crops/).
+
 ### 2023
 
 #### Spatial Genomics Mouse Kidney Mini Dataset
