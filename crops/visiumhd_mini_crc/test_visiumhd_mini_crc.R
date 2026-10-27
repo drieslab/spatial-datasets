@@ -8,7 +8,8 @@
 # 3. readers: Giotto in memory and GiottoDisk on disk, bins and cells
 # 4. alignment: spatlocs and polygons sit on the cropped image
 #
-# Env: VHD_OUT_DIR, the fixture to check (default: the local copy it was made in).
+# Env: VHD_OUT_DIR, the fixture to check (default: the local copy it was made in),
+# and VHD_SOURCE_DIR, the extracted 10x `outs/` it was cut from.
 # =============================================================================
 suppressMessages({
     library(data.table); library(jsonlite); library(hdf5r); library(Matrix)
@@ -20,7 +21,8 @@ BASE    <- "/Users/rubendries/Documents/Datasets/Cropped_datasets/VisiumHD"
 OUT_DIR <- Sys.getenv("VHD_OUT_DIR", file.path(BASE, "visiumhd_mini_crc"))
 PNG_OUT <- sub("/?$", "_alignment.png", OUT_DIR)
 mani <- fromJSON(file.path(OUT_DIR, "crop_manifest.json"), simplifyVector = FALSE)
-SRC  <- mani$source$dir
+SRC  <- Sys.getenv("VHD_SOURCE_DIR",
+    "/Users/rubendries/Documents/Datasets/visiumHD/Human_Colon_Cancer_v4/outs")
 
 RESULTS <- list()
 ok <- function(name, pass, detail = "") {
@@ -107,7 +109,7 @@ s <- read_h5(file.path(SRC, "segmented_outputs", "raw_feature_cell_matrix.h5"), 
 ok("2b. cell columns == source columns", same(s, mc))
 stp <- as.data.table(arrow::read_parquet(file.path(bdir(SRC, 8L), "spatial", "tissue_positions.parquet")))
 stp <- stp[match(tp$square_008um$barcode, barcode)]
-tr <- mani$crop$translation_fullres_px
+tr <- mani$crop$translation
 ok("2c. positions == source positions translated",
    isTRUE(all.equal(tp$square_008um$pxl_col_in_fullres, stp$pxl_col_in_fullres + tr$x)) &&
        isTRUE(all.equal(tp$square_008um$pxl_row_in_fullres, stp$pxl_row_in_fullres + tr$y)) &&

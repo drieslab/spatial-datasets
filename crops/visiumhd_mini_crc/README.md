@@ -17,7 +17,8 @@ extracted into one `outs/`.
 ```sh
 VHD_SOURCE_DIR=/path/to/outs VHD_OUT_DIR=/path/to/visiumhd_mini_crc \
   Rscript make_visiumhd_mini_crc.R
-VHD_OUT_DIR=/path/to/visiumhd_mini_crc Rscript test_visiumhd_mini_crc.R
+VHD_SOURCE_DIR=/path/to/outs VHD_OUT_DIR=/path/to/visiumhd_mini_crc \
+  Rscript test_visiumhd_mini_crc.R
 VHD_MINI_DIR=/path/to/visiumhd_mini_crc Rscript workflow_visiumhd_mini_crc.R
 ```
 
@@ -26,3 +27,11 @@ VHD_MINI_DIR=/path/to/visiumhd_mini_crc Rscript workflow_visiumhd_mini_crc.R
 - `workflow_visiumhd_mini_crc.R` runs every reader option and the website
   tutorial's pipeline in memory and on disk, and writes a report (one line per
   step, plus memory-vs-disk comparisons).
+
+Published as
+[`visiumhd_mini_crc-v1`](https://github.com/drieslab/spatial-datasets/releases/tag/visiumhd_mini_crc-v1).
+`make_visiumhd_mini_crc.R` and `visiumhd_crop_geojson.py` are the exact files
+that cut it; their sha256 is in its `crop_manifest.json`. The manifest they
+write predates the schema, so the published one was converted to schema v1
+without rerunning the crop. A v2 rerun updates the script to write schema v1
+first.

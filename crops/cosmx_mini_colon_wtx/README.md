@@ -1,8 +1,8 @@
 # cosmx_mini_colon_wtx
 
-Nine adjacent fields of view (56-58, 70-72, 83-85) of slide S0 of the Bruker
-CosMx Human WTx colon dataset: 16,766 cells, the full 20,378-feature panel, in
-the unmodified vendor flat-file layout, with no transcripts or images. The
-crop and its checks are described in
+Field of view 71 of slide S0 of the Bruker CosMx Human WTx colon dataset:
+1,752 cells, the full 20,378-feature panel and 3,274,191 transcripts, in the
+unmodified vendor flat-file layout, with no morphology images. The original
+nine-FOV crop is described in
 [GiottoData#75](https://github.com/giotto-suite/GiottoData/pull/75); the script
-that cut it is not in this repository.
+that cut either version is not in this repository.

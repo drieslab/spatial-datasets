@@ -1,11 +1,17 @@
 # Cropped vendor-format minis
 
 Small spatial crops of public vendor runs, published as assets on the
-[`crops-2026-09`](https://github.com/drieslab/spatial-datasets/releases/tag/crops-2026-09)
-release and downloaded with `GiottoData::getSpatialDataset("<name>")`. Each
+[`drieslab/spatial-datasets` releases](https://github.com/drieslab/spatial-datasets/releases)
+and downloaded with `GiottoData::getSpatialDataset("<name>")`. Each
 folder holds the script that cut the crop from the full run and the check that
-accepts it. Each archive's `crop_manifest.json` records the source run, the
-window and the script's sha256.
+accepts it, where the script is available.
+
+Each crop gets its own `<dataset>-v<N>` release and ships a `crop_manifest.json`
+valid against GiottoData's
+[crop manifest schema](https://github.com/giotto-suite/GiottoData/blob/dev/.claude/skills/add-spatial-dataset/crop_manifest.schema.json),
+recording the source run, the window and the script's sha256. The lung,
+Stereo-seq and CosMx crops predate this: they share the `crops-2026-09`
+release, and their manifests, where present, follow an earlier layout.
 
 | dataset | technology | made by | checked by |
 |---|---|---|---|
