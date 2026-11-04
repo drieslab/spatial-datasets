@@ -19,6 +19,7 @@ release, and their manifests, where present, follow an earlier layout.
 | `stereoseq_mini_mouse_eyeball` | Stereo-seq | `make_stereoseq_mini_mouse_eyeball.R` + `stereoseq_crop.py` | `test_stereoseq_mini_mouse_eyeball.R` + `audit_fixture.py` |
 | `cosmx_mini_colon_wtx` | Bruker CosMx | see its README | see its README |
 | `visiumhd_mini_crc` | 10x Visium HD | `make_visiumhd_mini_crc.R` + `visiumhd_crop_geojson.py` | `test_visiumhd_mini_crc.R`, `workflow_visiumhd_mini_crc.R` |
+| `xenium_mini_breast_ffpe` | 10x Xenium | `make_xenium_mini.R` + four python helpers, packaged by `package_mini.sh` | `test_xenium_mini_breast_ffpe.R` |
 
 To rerun a crop, download the full run (see each README), point the script at
 it and run it with `Rscript`. Rerunning gives the same content; HDF5 files
